@@ -6,7 +6,7 @@ const Model1 = require('./src/Model1');
 
 const app = express();
 
-mongoose.connect('mongodb://rez:dbdbdb@ds051913.mlab.com:51913/rezdb');
+mongoose.connect(***);
 mongoose.Promise = global.Promise;
 
 

@@ -1,0 +1,28 @@
+//Using Brackets v1.6 (most up-to-date for this mac os 10.6.8)
+//see: https://github.com/adobe/brackets/wiki/How-to-Use-Brackets
+
+//directory structure
+
+app1/
+ app.js
+ node-modules/
+ package.json
+ rezLog.txt
+
+//tutorial the net ninja: https://www.youtube.com/watch?v=Bc2QE-kHbu0&index=5&list=PL4cUxeGkcC9jBcybHMTIia56aV21o2cZ8
+
+//npm install --save express, body-parser, mongoose 
+//npm install -g nodemon
+//nodemon was not watching updates 
+//atempted node update with build from source by downloading source, Termainal into source directory and $ ./configure; make; make install; 
+// seemed to build but still not working... Bad CPU type in executable
+
+//from url: https://stackoverflow.com/questions/11177954/how-do-i-completely-uninstall-node-js-and-reinstall-from-beginning-mac-os-x
+//tried: $sudo rm -rf /usr/local/{lib/node{,/.npm,_modules},bin,share/man}/{npm*,node*,man1/node*}
+//seemed to uninstall node
+
+//from url: https://medium.com/@katopz/how-to-install-specific-nodejs-version-c6e1cec8aa11
+//$brew search node //shows available node versions 
+//$brew install node@4
+//it's doing something... wow (a lot of something, update brew, dependencies for node@4, python, node-v4.8.4.tar.xz)...
+//$brew link node@4
